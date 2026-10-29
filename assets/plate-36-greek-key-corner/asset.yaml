@@ -1,0 +1,39 @@
+# descriptive: find it and understand it
+id: plate-36-greek-key-corner
+title: Greek key corner, top-left
+description: An L-shaped top-left corner with two arms of equal length. The outer band is blue with a running cream and gold wave scroll; the inner band is dark olive green with a row of red Greek key cells, each a square meander; thin orange-red rules edged in cream separate the bands and close the edges, and a diagonal mitre joins the two arms at the vertex. The inside of the L is transparent.
+type: corner
+categories:
+  - geometric
+  - scrollwork
+subjects:
+  - meander
+  - scroll
+  - rule
+colors:
+  - blue
+  - green
+  - red
+  - gold
+  - cream
+facing: none
+composition: single-ornament
+
+# structural: how it is organised and related
+group: null
+render:
+  image: {}
+related: []
+usage_notes:
+  - Place at the top-left of a box; flip or rotate for the other three corners, the pattern is symmetrical about the mitre.
+  - The arms are cut square at their ends and do not repeat; it is a complete corner, not a border-image atlas.
+display_width: [ 60, 121 ]
+
+# administrative: manage, access, preserve
+status: approved
+review: done
+created: 2026-10-28
+quality: Low-resolution master of 121 px with dither noise in the green band; do not scale up far.
+master: master.png
+provenance: null
+license: null

@@ -1,0 +1,49 @@
+# descriptive: find it and understand it
+id: plate-22-petal-cross
+title: Dark petal cross border cell
+description: One repeat of a border, a cream square panel holding four dark red pointed petals on the diagonals and a thin orange cross of rods with knobbed ends between them, a small cream ring at the centre; to its left a narrow dark red bar with a cream C-curl at each end and a small gold ring in the middle. Orange-red rules run along the top and bottom. The cell chains when repeated. Opaque, no transparent background.
+type: border
+categories:
+  - geometric
+  - floral
+subjects:
+  - petal
+  - cross
+  - ring
+  - rod
+colors:
+  - red
+  - cream
+  - orange
+  - gold
+facing: none
+composition: repeat-tile
+
+# structural: how it is organised and related
+group: null
+render:
+  image: {}
+  tile:
+    axis: x
+    period: 1
+  frame:
+    corner: corner
+    slice: 31.61
+components:
+  corner:
+    master: corner.png
+    description: Top-left corner, the petal-cross panel alone with the orange rules turning the angle on its outer sides.
+related: []
+usage_notes:
+  - One period of the plate border; repeat along x for a strip, the build's rotated ladder gives the vertical run.
+  - The frame atlas puts one panel and link between two corners; use border-image with round fitting.
+display_width: [ 32, 64 ]
+
+# administrative: manage, access, preserve
+status: approved
+review: done
+created: 2026-10-28
+quality: Low-resolution master of about 60 px with dither noise in the flat areas; do not scale up far.
+master: master.png
+provenance: null
+license: null

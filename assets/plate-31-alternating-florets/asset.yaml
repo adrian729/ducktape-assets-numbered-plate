@@ -1,0 +1,50 @@
+# descriptive: find it and understand it
+id: plate-31-alternating-florets
+title: Floret and leaf cross border strip
+description: A border repeat of four square cells, a dark red panel with a cream floret of four C-curled petals and an orange border, a cream panel with an olive-brown four-leaf cross around a blue dot and blue drop accents, the same floret panel with a blue border, and the leaf cross again; a thin orange-red rule runs along the bottom. Nearly four times wider than tall; the cells chain when repeated. Opaque, no transparent background.
+type: border
+categories:
+  - floral
+  - geometric
+subjects:
+  - flower
+  - leaf
+  - cross
+  - dot
+colors:
+  - red
+  - blue
+  - brown
+  - cream
+  - orange
+facing: none
+composition: repeat-tile
+
+# structural: how it is organised and related
+group: null
+render:
+  image: {}
+  tile:
+    axis: x
+    period: 1
+  frame:
+    corner: corner
+    slice: 17.63
+components:
+  corner:
+    master: corner.png
+    description: Top-left corner, the olive leaf-cross cell on cream closing both arms.
+related: []
+usage_notes:
+  - Repeats along x; the build's rotated ladder gives the vertical run.
+  - The frame atlas puts the four-cell period between two leaf-cross corners; use border-image with round fitting so whole cells land on each side.
+display_width: [ 96, 191 ]
+
+# administrative: manage, access, preserve
+status: approved
+review: done
+created: 2026-10-28
+quality: Low-resolution master, 52 px high, with dither noise in the flat panels; do not scale up far.
+master: master.png
+provenance: null
+license: null

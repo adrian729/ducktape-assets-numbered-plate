@@ -1,0 +1,48 @@
+# descriptive: find it and understand it
+id: plate-33-leaf-scrolls
+title: Scrolling stem vertical border
+description: A vertical border repeat on cream, a symmetrical pair of dark olive-brown stems that fork from the centre line into two inward volutes at the bottom and two outward curls with dark red tips higher up, small dark red dashes between them, and a blue three-lobed leaf in each upper corner; a dark red rule runs down each side. The stems continue across the top and bottom edges when repeated. Opaque, no transparent background.
+type: border
+categories:
+  - scrollwork
+  - botanical
+subjects:
+  - scroll
+  - stem
+  - leaf
+colors:
+  - cream
+  - brown
+  - blue
+  - red
+facing: none
+composition: repeat-tile
+
+# structural: how it is organised and related
+group: null
+render:
+  image: {}
+  tile:
+    axis: y
+    period: 1
+  frame:
+    corner: corner
+    slice: 30.17
+components:
+  corner:
+    master: corner.png
+    description: Mitred top-left corner, the volutes and curls turning the angle on cream with the red rule on the outer sides.
+related: []
+usage_notes:
+  - Repeats along y; the build's rotated ladder gives the horizontal run.
+  - The frame atlas puts one period between two corners; use border-image with round fitting.
+display_width: [ 27, 54 ]
+
+# administrative: manage, access, preserve
+status: approved
+review: done
+created: 2026-10-28
+quality: Low-resolution master, 54 px wide; the stems are one to two pixels wide and blur when scaled.
+master: master.png
+provenance: null
+license: null

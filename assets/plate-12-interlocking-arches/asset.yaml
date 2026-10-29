@@ -1,0 +1,44 @@
+# descriptive: find it and understand it
+id: plate-12-interlocking-arches
+title: Interlocking arches with striped lunettes
+description: One repeat of a border strip, wider than tall. White arcs cross one another to form interlocking circles; the two central half-circles are filled with gold and green stripes, the outer ones with dark red and black bands, and small white dots fill the pointed spaces between the arcs, on an opaque ground. Nothing is transparent.
+type: border
+categories:
+  - geometric
+subjects:
+  - arch
+  - lunette
+  - dot
+colors:
+  - red
+  - gold
+  - green
+  - white
+  - black
+facing: none
+composition: repeat-tile
+
+# structural: how it is organised and related
+group: null
+render:
+  image: {}
+  frame:
+    corner: corner
+    slice: 29.45
+components:
+  corner:
+    master: corner.png
+    description: Top-left mitred corner of the same thickness, a gold and green chevron pointing into the angle between dotted arcs.
+usage_notes:
+  - The repeat is barely longer than it is thick, so it is not declared as a tile; repeat it along its width with background-repeat.
+  - The frame atlas composes it with the corner component for border-image use.
+display_width: [ 50, 67 ]
+
+# administrative: manage, access, preserve
+status: approved
+review: done
+created: 2026-10-28
+quality: Low-resolution master (67 px wide); its first and last pixel columns are identical, so a tiled run doubles one column at each join.
+master: master.png
+provenance: null
+license: null

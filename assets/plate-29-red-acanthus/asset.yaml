@@ -1,0 +1,50 @@
+# descriptive: find it and understand it
+id: plate-29-red-acanthus
+title: Red acanthus stem vertical border
+description: A vertical border repeat, an undulating orange stem outlined in dark red winding up the strip with dark red acanthus fronds springing from it on both sides, two small blue trefoil flowers edged in orange at the bends and small cream ring beads on the stem, over a mottled tan and olive ground. Four times taller than wide; the stem crosses the top and bottom edges so the strip joins when stacked. Opaque, no transparent background.
+type: border
+categories:
+  - botanical
+  - scrollwork
+subjects:
+  - acanthus
+  - stem
+  - leaf
+  - flower
+colors:
+  - red
+  - orange
+  - tan
+  - blue
+  - cream
+facing: none
+composition: repeat-tile
+
+# structural: how it is organised and related
+group: null
+render:
+  image: {}
+  tile:
+    axis: y
+    period: 1
+  frame:
+    corner: corner
+    slice: 16.4
+components:
+  corner:
+    master: corner.png
+    description: Small top-left corner square with a blue flower and acanthus fronds turning the angle, cut from the same stem.
+related: []
+usage_notes:
+  - Repeats along y; the build's rotated ladder gives the horizontal run.
+  - The frame atlas puts one full stem period between two corners; use border-image with round fitting. The corner is a small cut piece, so check the join at large sizes.
+display_width: [ 26, 52 ]
+
+# administrative: manage, access, preserve
+status: approved
+review: done
+created: 2026-10-28
+quality: Low-resolution master, 52 px wide, with a noisy mottled ground; do not scale up far.
+master: master.png
+provenance: null
+license: null

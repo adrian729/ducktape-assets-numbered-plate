@@ -1,0 +1,49 @@
+# descriptive: find it and understand it
+id: plate-13-leaf-and-flower-vine
+title: Red and green leaf vine
+description: One repeat of a long border strip, more than three times wider than tall. A dark olive vine scrolls along the strip with orange-red tendrils, a green veined leaf, a small round red flower on an olive ring, a red and green bud and a red fleuron, on an opaque dark maroon ground. Nothing is transparent.
+type: border
+categories:
+  - botanical
+  - floral
+  - scrollwork
+subjects:
+  - vine
+  - leaf
+  - flower
+  - scroll
+  - bud
+colors:
+  - red
+  - green
+  - brown
+facing: none
+composition: repeat-tile
+
+# structural: how it is organised and related
+group: null
+render:
+  image: {}
+  tile:
+    axis: x
+    period: 1
+  frame:
+    corner: corner
+    slice: 17.78
+components:
+  corner:
+    master: corner.png
+    description: Top-left mitred corner of the same thickness, a red flower head and olive scrolls turning the angle with a red fleuron at the centre.
+usage_notes:
+  - Repeats along its width; the build's rotated ladder gives the vertical use.
+  - The frame atlas composes it with the corner component for border-image use.
+display_width: [ 120, 174 ]
+
+# administrative: manage, access, preserve
+status: approved
+review: done
+created: 2026-10-28
+quality: Low-resolution master (174 px wide); its first and last pixel columns are identical, so a tiled run doubles one column at each join.
+master: master.png
+provenance: null
+license: null

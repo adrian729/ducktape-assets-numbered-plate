@@ -1,0 +1,37 @@
+# descriptive: find it and understand it
+id: plate-11-acanthus-scroll
+title: Acanthus wave scroll
+description: A long horizontal strip, more than five times wider than tall. A gold stem rolls in two waves along the strip, throwing off dark green acanthus leaves edged in white, with red tongue-like leaflets, small white dots and a gold spiral at each crest, on an opaque dark maroon ground. Both ends are cut by the plate edge. Nothing is transparent.
+type: divider
+categories:
+  - botanical
+  - scrollwork
+subjects:
+  - acanthus
+  - leaf
+  - scroll
+  - stem
+colors:
+  - green
+  - gold
+  - red
+  - white
+facing: none
+composition: single-ornament
+
+# structural: how it is organised and related
+group: null
+render:
+  image: {}
+usage_notes:
+  - Its ends do not match, so it neither terminates cleanly nor repeats; use it as one piece.
+display_width: [ 180, 271 ]
+
+# administrative: manage, access, preserve
+status: approved
+review: done
+created: 2026-10-28
+quality: Low-resolution master (271 px wide) with both ends cut by the plate edge.
+master: master.png
+provenance: null
+license: null

@@ -1,0 +1,49 @@
+# descriptive: find it and understand it
+id: plate-30-layered-palmettes
+title: Stacked shell palmette vertical border
+description: A vertical border repeat, a stack of four overlapping shell-shaped palmettes with radiating ribs and a cream central tongue, their colours changing down the strip from blue to orange and dark red, to gold and blue, to olive grey, with small cream dots in the spandrels between them; orange-red rules edged in cream run down both sides. The stack continues across the top and bottom edges when repeated. Opaque, no transparent background.
+type: border
+categories:
+  - botanical
+  - geometric
+subjects:
+  - palmette
+  - shell
+  - dot
+colors:
+  - red
+  - blue
+  - orange
+  - gold
+  - cream
+facing: none
+composition: repeat-tile
+
+# structural: how it is organised and related
+group: null
+render:
+  image: {}
+  tile:
+    axis: y
+    period: 1
+  frame:
+    corner: corner
+    slice: 22.45
+components:
+  corner:
+    master: corner.png
+    description: Mitred top-left corner, an olive palmette fan set on the diagonal with a blue quarter fan in the outer angle.
+related: []
+usage_notes:
+  - Repeats along y; the build's rotated ladder gives the horizontal run.
+  - The frame atlas puts one stack of four palmettes between two corners; use border-image with round fitting.
+display_width: [ 28, 55 ]
+
+# administrative: manage, access, preserve
+status: approved
+review: done
+created: 2026-10-28
+quality: Low-resolution master, 55 px wide, with dither noise in the coloured fans; do not scale up far.
+master: master.png
+provenance: null
+license: null

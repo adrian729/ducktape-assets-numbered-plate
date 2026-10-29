@@ -1,0 +1,46 @@
+# descriptive: find it and understand it
+id: plate-34-nested-fans
+title: Nested loop vertical border
+description: A vertical border repeat of tightly nested hairlines in dark olive, cream and dark red that bend into a column of heart-shaped loops, each loop opening downward around the one below it like fingerprint ridges, with narrower loops filling the sides; a brown-red rule runs down each side. The ridges continue across the top and bottom edges when repeated. Opaque, no transparent background.
+type: border
+categories:
+  - geometric
+subjects:
+  - loop
+  - fan
+colors:
+  - cream
+  - brown
+  - black
+  - red
+facing: none
+composition: repeat-tile
+
+# structural: how it is organised and related
+group: null
+render:
+  image: {}
+  tile:
+    axis: y
+    period: 1
+  frame:
+    corner: corner
+    slice: 30.06
+components:
+  corner:
+    master: corner.png
+    description: Mitred top-left corner, the nested hairlines folded on the diagonal so the ridges turn the angle.
+related: []
+usage_notes:
+  - Repeats along y; the build's rotated ladder gives the horizontal run.
+  - The frame atlas puts one period between two corners; use border-image with round fitting.
+display_width: [ 26, 52 ]
+
+# administrative: manage, access, preserve
+status: approved
+review: done
+created: 2026-10-28
+quality: Low-resolution master, 52 px wide; the hairlines are one pixel wide and shimmer when scaled, so keep it near master size.
+master: master.png
+provenance: null
+license: null
