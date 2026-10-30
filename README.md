@@ -3,7 +3,7 @@
 
 The 38 numbered ornaments cut from one supplied plate of border strips, corners and fillers (scrolls, ribbons, spirals, hearts and curls), a legacy collection whose origin was never recorded; each piece keeps its plate number in its id.
 
-Part of [Ducktape Assets](https://github.com/adrian729/ducktape-assets). Set id `numbered-plate`, imported, 25 assets.
+Part of [Ducktape Assets](https://github.com/adrian729/ducktape-assets). Set id `numbered-plate`, imported, 24 assets, version 1.0.0.
 
 ## Licence and attribution
 
@@ -13,10 +13,10 @@ Author: adrian729. Maintainer: https://github.com/adrian729/ducktape-assets/issu
 
 ## Use one asset
 
-No version is published yet. Once it is, pin the exact version (never `@latest`); the URL scheme is:
+Pin the exact version (never `@latest`). For `numbered-plate/plate-02-stepped-ribbon`:
 
-```
-https://cdn.jsdelivr.net/npm/@ranx729/ducktape-assets-numbered-plate@<version>/webp/<asset-id>-<width>.webp
+```html
+<img src="https://cdn.jsdelivr.net/npm/@ranx729/ducktape-assets-numbered-plate@1.0.0/webp/plate-02-stepped-ribbon-52.webp" alt="" loading="lazy">
 ```
 
 Package `@ranx729/ducktape-assets-numbered-plate`; every file, width and format is listed in its `manifest.json`. Masters live in git under `assets/<id>/` and in `@ranx729/ducktape-assets-numbered-plate-masters`; never put a master on a page.
@@ -41,7 +41,6 @@ Package `@ranx729/ducktape-assets-numbered-plate`; every file, width and format 
 | `plate-19-cream-scrolls` | Four cream spirals on red | border | 65 × 55 |  | approved |
 | `plate-22-petal-cross` | Dark petal cross border cell | border | 64 × 55 |  | approved |
 | `plate-24-gold-ring-scrolls` | Two-roundel border cell with fleuron link | border | 94 × 53 |  | approved |
-| `plate-26-five-disc-cross` | Five-disc cross border cell | border | 52 × 56 |  | approved |
 | `plate-29-red-acanthus` | Red acanthus stem vertical border | border | 52 × 213 |  | approved |
 | `plate-30-layered-palmettes` | Stacked shell palmette vertical border | border | 55 × 135 |  | approved |
 | `plate-31-alternating-florets` | Floret and leaf cross border strip | border | 191 × 52 |  | approved |
